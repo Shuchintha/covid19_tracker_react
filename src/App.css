@@ -3,5 +3,33 @@
 }
 
 .app {
-  text-align: center;
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-evenly;
+  padding: 20px;
+}
+body {
+  background-color: #f5f6fa;
+}
+
+.app__left {
+  flex: 0.9;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
 }

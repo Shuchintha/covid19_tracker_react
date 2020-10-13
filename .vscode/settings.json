@@ -1,0 +1,13 @@
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "prettier.arrowParens": "avoid",
+    "prettier.embeddedLanguageFormatting": "off",
+    "prettier.endOfLine": "auto",
+    "prettier.semi": false
+}
